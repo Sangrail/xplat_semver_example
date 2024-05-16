@@ -21,9 +21,6 @@ root/
 │   ├── luigi_pipeline.py
 │   └── requirements.txt
 ├── Dockerfile
-├── .github/
-│   └── workflows/
-│       └── ci.yml
 ├── README.md
 └── .gitignore
 ```
@@ -37,11 +34,6 @@ root/
 ### Building and Running the Docker Container
 
 1. Clone the repository:
-
-    ```sh
-    git clone ...
-    cd mini_project
-    ```
 
 2. Build the Docker image:
 
