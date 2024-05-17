@@ -46,3 +46,8 @@ root/
     ```sh
     docker run myproject:latest
     ```
+
+
+Sample telemetry for the entire Luigi Pipeline, including the luigi nodes and c++ subprocess:
+
+![Telemetry Screenshot](imgs/Screenshot 2024-05-17 at 17.08.45.png)
