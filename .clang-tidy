@@ -1,0 +1,6 @@
+Checks: 'modernize-*, readability-*, clang-analyzer-*, cppcoreguidelines-*'
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*'
+AnalyzeTemporaryDtors: false
+FormatStyle: none
+User: 'Your Name'

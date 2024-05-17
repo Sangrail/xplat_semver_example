@@ -30,4 +30,5 @@ class PrintCppOutput(luigi.Task):
         return luigi.LocalTarget('/app/print_done.txt')
 
 if __name__ == "__main__":
-    luigi.build([PrintCppOutput()], local_scheduler=True)
+    with tracer.start_as_current_span("LuigiPipeline"):
+        luigi.build([PrintCppOutput()], local_scheduler=True)
