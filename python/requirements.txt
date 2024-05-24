@@ -5,3 +5,4 @@ opentelemetry-sdk
 opentelemetry-instrumentation
 opentelemetry-exporter-otlp
 python-dotenv
+opentelemetry-distro
